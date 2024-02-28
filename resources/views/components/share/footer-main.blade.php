@@ -1,0 +1,3 @@
+<div>
+    FOOTER MAIN
+</div>
