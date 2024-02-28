@@ -26,7 +26,7 @@ class InscripcionViajeSeeder extends Seeder
                             'cliente_id' => $clienteId
                         ]);
                     } catch (\Exception $ex) {
-                        error_log("No se pudo añadir el viaje $viajeId  al cliente  $clienteId");
+                       // error_log("No se pudo añadir el viaje $viajeId  al cliente  $clienteId");
                     }
                 }
             }
